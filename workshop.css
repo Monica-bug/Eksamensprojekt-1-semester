@@ -1,0 +1,15 @@
+/* CSS for waver.html */
+.sprite {
+  width: 495px;
+  height: 490px;
+  background: url(img/sprite_workshop1-01.png) 0 0 no-repeat;
+  animation: play 15s steps(24) infinite;
+}
+@keyframes play {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -12000px;
+  }
+}
